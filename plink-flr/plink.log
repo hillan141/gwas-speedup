@@ -1,0 +1,24 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-check not implemented on this system...
+Writing this text to log file [ plink.log ]
+Analysis started: Mon Oct  3 20:57:15 2016
+
+Options in effect:
+
+Before frequency and genotyping pruning, there are 0 SNPs
+0 founders and 0 non-founders found
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 0 SNPs
+
+ERROR: Stopping as there are no SNPs left for analysis
+
