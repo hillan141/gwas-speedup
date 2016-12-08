@@ -45,6 +45,5 @@ make test
 
 For plink-flr:
 cd plink-flr
-# The following will run the first 10 variants in the test dataset:
 make test
 
