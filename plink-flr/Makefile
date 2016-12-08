@@ -169,5 +169,8 @@ $(OUTPUT) : $(OBJ)
 
 FORCE:
 
+test : all
+	./plink --bfile ../t/UC_N6000_M7000_P1_C5/plink --logistic --covar ../t/UC_N6000_M7000_P1_C5/plink.cov \
+           --ci 0.95 --extract ../t/UC_N6000_M7000_P1_C5/plink.list --out reference_solution
 clean:
 	rm -f *.o *~

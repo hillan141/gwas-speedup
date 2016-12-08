@@ -10,15 +10,37 @@
 
 Web-check not implemented on this system...
 Writing this text to log file [ plink.log ]
-Analysis started: Mon Oct  3 20:57:15 2016
+Analysis started: Thu Oct  6 16:30:20 2016
 
 Options in effect:
+	--bfile ../t/UC_N6000_M7000_P1_C5/plink
+	--logistic
 
-Before frequency and genotyping pruning, there are 0 SNPs
-0 founders and 0 non-founders found
+Reading list of SNPs to extract [ plink.list ] ... 10 read
+Reading map (extended format) from [ ../t/UC_N6000_M7000_P1_C5/plink.bim ] 
+10 markers to be included from [ ../t/UC_N6000_M7000_P1_C5/plink.bim ]
+Reading pedigree information from [ ../t/UC_N6000_M7000_P1_C5/plink.fam ] 
+6000 individuals read from [ ../t/UC_N6000_M7000_P1_C5/plink.fam ] 
+6000 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+2687 cases, 3313 controls and 0 missing
+3004 males, 2996 females, and 0 of unspecified sex
+Reading genotype bitfile from [ ../t/UC_N6000_M7000_P1_C5/plink.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Start allocation of SNP (resize)
+Done allocation of SNP (resize)
+Using collapsed IO
+Before frequency and genotyping pruning, there are 10 SNPs
+6000 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
 0 SNPs failed missingness test ( GENO > 1 )
 0 SNPs failed frequency test ( MAF < 0 )
-After frequency and genotyping pruning, there are 0 SNPs
+After frequency and genotyping pruning, there are 10 SNPs
+After filtering, 2687 cases, 3313 controls and 0 missing
+After filtering, 3004 males, 2996 females, and 0 of unspecified sex
+Converting data to Individual-major format
+Writing logistic model association results to [ plink.assoc.logistic ] 
 
-ERROR: Stopping as there are no SNPs left for analysis
+Analysis finished: Thu Oct  6 16:30:20 2016
 
